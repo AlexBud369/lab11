@@ -15,40 +15,20 @@
         <aside class="filter-search-panel">
             <div class="search-container">
                 <form class="search-form" id="search-form-id">
-                    <input class="search-field" type="search" placeholder="Input smth" autofocus="autofocus" autocomplete="off">
+                    <input class="search-field" type="search" placeholder="Input title" autofocus="autofocus" autocomplete="off">
                 </form>
                 <button class="clear-btn"><img src="./images/cross-icon.png" alt="clear"></button>
             </div>
+            <label class="category-label">Choice a filter</label>
             <select class="filters-selection" name="filters" id="books-filters">
-                <option value="">Choice a filter</option>
-                <option value="">Author</option>
-                <option value="">Category</option>
-                <option value="">Category</option>
-                <option value="">Category</option>
+                <option value="title-harry">Title: Harry Potter</option>
+                <option value="author-king">Author: Stephen King</option>
+                <option value="publisher-maklu">Publisher: Maklu</option>
+                <option value="free-ebooks">Free books</option>
+                <option value="paid-ebooks">Paid books</option>
             </select>
         </aside>
         <section class="books-container">
-            <article class="book-item">
-                <img src="" alt="">
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-            </article>
-            <article class="book-item">
-                <img src="" alt="">
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-            </article>
-            <article class="book-item">
-                <img src="" alt="">
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-                <p>text</p>
-            </article>
             <p class="no-results">There are no books</p>
         </section>
     </main>
@@ -58,5 +38,6 @@
             <a href="" class="git-link">My GitHub</a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
